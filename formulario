@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasco</title>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<body>
+    <center>
+    <form action="https://pt.wikipedia.org/wiki/Club_de_Regatas_Vasco_da_Gama">
+        Nome de Usuário: <input type="text" name="usuario" value="Vegetti"><br>
+        Data de Nascimento: <input type="date" name="datadenasc"><br>
+        Genero: <input type="radio" name="genero" value="homem">Homem<br>
+                <input type="radio" name="genero" value="mulher">Mulher<br>
+                <input type="radio" name="genero" value="outro">Outros<br>
+        Qual é melhor:  <input type="checkbox" name="jogador" value="Vegetti">Vegetti<br>
+                        <input type="checkbox" name="jogador" value="Payet">Payet<br>
+                        <input type="checkbox" name="jogador" value="LeoGarden">Leo Garden<br>
+        Email: <input type="text" name="email" value="VoltaR@monDiaz.com.br"><br> 
+        Senha: <input type="password" name="senha" value="LeoGarden"><br>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</center>
+
+</body>
+</html>
